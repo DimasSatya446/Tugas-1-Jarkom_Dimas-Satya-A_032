@@ -19,6 +19,31 @@ Base Network: 10.72.0.0
 | P2P branch | 2 | /30 | 
 | **Total** | **778** | **/22** |
 
+Jumlah host = 2^(32 - prefix) - 2
+
+## Mask
+IPv4 = 32 bit → dibagi 4 oktet (masing-masing 8 bit).
+Prefix /x berarti:
+Ada x bit pertama bernilai 1 → bagian network.
+Sisanya (32 − x bit) = 0 → bagian host.
+Lalu setiap 8 bit dikonversi ke desimal.
+
+## Blocksize
+Block size = 256−angka oktet terakhir pada mask
+
+## Network
+Network address = alamat pertama dalam blok subnet,
+semua bit host = 0.
+
+## Broadcast
+Broadcast=Network+Block Size−1
+(dihitung pada oktet yang berubah)
+
+## Range
+Range host=(Network+1) sampai (Broadcast−1)
+
+## Gateway
+Host pertama di subnet
 
 # VLSM
 <img width="1842" height="1202" alt="image" src="https://github.com/user-attachments/assets/0ff92912-27fc-4444-b57d-1784566c369d" />
