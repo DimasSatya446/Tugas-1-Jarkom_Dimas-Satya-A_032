@@ -60,6 +60,9 @@ Host pertama di subnet
 | **P2P** (Router HQ ↔ Router Branch)         |            **2** | 10.72.3.240 | 255.255.255.252 | /30    | 10.72.3.241 – 10.72.3.242 | 10.72.3.243 | 10.72.3.241 |
 
 # CIDR
+<img width="1878" height="1248" alt="image" src="https://github.com/user-attachments/assets/0a09621c-5347-48dc-9bc8-b3c427e6aa80" />
+
+
 | Network         | Mask            | Prefix  | Range Host                | Broadcast   | Gateway     | Keterangan (Agregasi dari Subnet VLSM)                                                                                                                    |
 | --------------- | --------------- | ------- | ------------------------- | ----------- | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **10.72.0.0**   | 255.255.252.0   | **/22** | 10.72.0.1 – 10.72.3.254   | 10.72.3.255 | 10.72.0.1   | **Supernet Kantor Pusat** → gabungan: Sekretariat (/23), Kurikulum (/24), Guru & Tendik (/25), Sarpras (/26), Pengawas (Cabang /27), Server & Admin (/29) |
