@@ -21,7 +21,7 @@ Base Network: 10.72.0.0
 
 
 # VLSM
-<img width="1832" height="1244" alt="image" src="https://github.com/user-attachments/assets/c287e469-9539-4e31-87d6-18d80081d00a" />
+<img width="1842" height="1202" alt="image" src="https://github.com/user-attachments/assets/0ff92912-27fc-4444-b57d-1784566c369d" />
 
 | Subnet                                      | Host pada Subnet | Network     | Mask            | Prefix | Range Host                | Broadcast   | Gateway     |
 | ------------------------------------------- | ---------------: | ----------- | --------------- | ------ | ------------------------- | ----------- | ----------- |
