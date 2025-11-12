@@ -21,6 +21,8 @@ Base Network: 10.72.0.0
 
 
 # VLSM
+<img width="1832" height="1244" alt="image" src="https://github.com/user-attachments/assets/c287e469-9539-4e31-87d6-18d80081d00a" />
+
 | Subnet                                      | Host pada Subnet | Network     | Mask            | Prefix | Range Host                | Broadcast   | Gateway     |
 | ------------------------------------------- | ---------------: | ----------- | --------------- | ------ | ------------------------- | ----------- | ----------- |
 | Sekretariat                                 |          **381** | 10.72.0.0   | 255.255.254.0   | /23    | 10.72.0.1 – 10.72.1.254   | 10.72.1.255 | 10.72.0.1   |
