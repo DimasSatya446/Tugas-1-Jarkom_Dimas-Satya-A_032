@@ -7,8 +7,6 @@ NRP: `5027241032` <mod 256> = 72
 
 Base Network: 10.72.0.0
 
-Jumlah host = 2^(32 - prefix) - 2
-
 | Subnet | Host | Prefix |
 | :-------- | :------- | :------- |
 | Sekretariat | 381 | /23 |  
